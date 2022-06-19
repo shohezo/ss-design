@@ -1,0 +1,102 @@
+@charset "UTF-8";
+/* タブレット */
+@media screen and (max-width: 1180px) {
+  .cursor,
+  .follower {
+    display: none;
+  }
+}
+
+/* スマホ */
+@media screen and (max-width: 640px) {
+  .hp_flex {
+    display: block;
+  }
+  /* ヘッダー */
+  .bl_headerNav {
+    bottom: 15px;
+  }
+  .el_logo img {
+    width: 42px;
+    margin-right: 0;
+  }
+  .el_logo h1 {
+    font-size: 2.5rem;
+  }
+  /* ファーストビュー */
+  .ly_fv {
+    height: 100vw;
+  }
+  /* コンセプト */
+  .bl_concept {
+    text-align: center;
+    padding-top: 80vh;
+    padding-bottom: 20vh;
+  }
+  .bl_concept_copy {
+    width: 100%;
+    font-size: 2rem;
+    margin: 0 auto;
+    text-align: center;
+    text-indent: 0rem;
+  }
+  /* サービス */
+  .bl_serviceWrapper_card {
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto 50px auto;
+  }
+  .bl_serviceWrapper_card img {
+    width: 30%;
+  }
+  .bl_serviceWrapper_ttl {
+    font-size: 2.5rem;
+  }
+  /* ワークス */
+  .bl_works_img {
+    margin-bottom: 50px;
+  }
+  .bl_works_list_card {
+    width: 100%;
+    margin: 0 auto 100px auto;
+  }
+  /* ブログ */
+  .bl_blog_item {
+    width: 100%;
+    margin: 0 auto 50px auto;
+  }
+  .bl_blog_item img {
+    min-height: 160px;
+  }
+  /* フッター */
+  .ly_footer .fab {
+    font-size: 30px;
+  }
+  .ly_footer .ly_inner p {
+    font-size: 1rem;
+  }
+  /* アバウトページ */
+  .bl_profileBox_img {
+    width: 80%;
+    margin: 0 auto 20px auto;
+  }
+  .bl_profileBox_detail {
+    width: 100%;
+  }
+  .bl_profileBox dt {
+    width: 30%;
+  }
+  /* カスタム投稿タイプ ワークスページ */
+  .bl_works_img {
+    margin-bottom: 0px;
+  }
+  .bl_works_type {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  /* 投稿ページ ブログ */
+  .bl_blog_container .bl_blog_date {
+    top: 40px;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */
