@@ -54,6 +54,9 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
     <!-- パララックス用CDN -->
     <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.1.0/dist/simpleParallax.min.js"></script>
+    <!-- Ptengine Tag -->
+    <script src="https://js.ptengine.jp/6fqnu7bc.js"></script>
+    <!-- End Ptengine Tag -->
 </head>
 
 <body>
